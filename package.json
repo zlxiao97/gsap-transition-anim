@@ -1,0 +1,32 @@
+{
+  "name": "@zlxiao97/gsap-fade-enter-leave",
+  "version": "1.0.0",
+  "description": "A react hook for gsap-based fade-enter and fade-leave effects",
+  "main": "index.js",
+  "scripts": {
+    "test": "scripts/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zlxiao97/gsap-fade-enter-leave.git"
+  },
+  "keywords": [
+    "gsap"
+  ],
+  "author": "zlxiao97",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zlxiao97/gsap-fade-enter-leave/issues"
+  },
+  "homepage": "https://github.com/zlxiao97/gsap-fade-enter-leave#readme",
+  "dependencies": {
+    "gsap": "^3.10.4",
+    "lodash": "^4.17.21",
+    "pubsub-js": "^1.9.4",
+    "uuid": "^8.3.2"
+  },
+  "peerDependencies": {
+    "react": "^16.8.0 || ^17 || ^18",
+    "react-router-dom": "^6.0.0"
+  }
+}
