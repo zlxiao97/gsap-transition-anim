@@ -1,14 +1,14 @@
 {
-  "name": "@zlxiao97/gsap-fade-enter-leave",
-  "version": "1.1.0",
-  "description": "A react hook for gsap-based fade-enter and fade-leave effects",
+  "name": "@zlxiao97/gsap-transition-anim",
+  "version": "1.0.0",
+  "description": "A JavaScript library for creating smooth entrance and exit animations for visual screens.",
   "main": "index.js",
   "scripts": {
     "test": "scripts/test.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/zlxiao97/gsap-fade-enter-leave.git"
+    "url": "https://github.com/zlxiao97/gsap-transition-anim"
   },
   "keywords": [
     "gsap"
@@ -16,9 +16,9 @@
   "author": "zlxiao97",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/zlxiao97/gsap-fade-enter-leave/issues"
+    "url": "https://github.com/zlxiao97/gsap-transition-anim/issues"
   },
-  "homepage": "https://github.com/zlxiao97/gsap-fade-enter-leave#readme",
+  "homepage": "https://github.com/zlxiao97/gsap-transition-anim#readme",
   "dependencies": {
     "gsap": "^3.10.4",
     "lodash": "^4.17.21",
