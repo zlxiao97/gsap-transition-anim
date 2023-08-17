@@ -92,7 +92,7 @@ Almost the same as the `useNavigate` hook of react router, the only difference i
 
 ## Example
 
-For a complete example of using the library, check out our [demo application]().
+For a complete example of using the library, check out our [demo application](https://codesandbox.io/p/sandbox/gsap-fade-enter-leave-4wfnvt?file=/src/pages/PageA.js:3,1-17,38).
 
 ## License
 
