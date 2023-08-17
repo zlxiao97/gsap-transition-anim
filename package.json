@@ -1,6 +1,6 @@
 {
   "name": "@zlxiao97/gsap-transition-anim",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A JavaScript library for creating smooth entrance and exit animations for visual screens.",
   "main": "index.js",
   "scripts": {
