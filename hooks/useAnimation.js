@@ -15,8 +15,8 @@ export function useAnimation(options) {
   const [_options, ids] = _resolveOptions(options);
   // 页面加载时，执行入场动画
   useEffect(() => {
-    _animate(_options, "from");
-  }, []);
+    _animate(_options, 'fromTo')
+  }, [])
 
   // 页面切换时，执行出场动画
   const leaveAnimation = useCallback(() => {
@@ -32,10 +32,32 @@ const _animate = (options, type = "from") => {
     const elementList = get(option, "ids", []).map((id) =>
       document.getElementById(id)
     );
-    gsap[type](elementList, {
-      ...option.vars,
-      ...checkoutAnimationCommonValue
-    });
+    switch (type) {
+      case 'fromTo':
+        gsap.fromTo(
+          elementList,
+          {
+            ...checkoutAnimationCommonValue,
+            ...option.vars,
+          },
+          {
+            ...checkoutAnimationCommonValue,
+            scale: 1,
+            opacity: 1,
+            x: 0,
+            y: 0,
+          }
+        )
+        break
+      case 'to':
+        gsap.to(elementList, {
+          ...checkoutAnimationCommonValue,
+          ...option.vars,
+        })
+        break
+      default:
+        return
+    }
   });
 };
 
